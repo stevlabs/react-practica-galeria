@@ -1,0 +1,32 @@
+/* SearchForm.css */
+
+/* Contenedor del formulario */
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Estilo del input de texto */
+#searchForm input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* Estilo del botón de submit */
+#searchForm input[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 4px;
+}
+
+#searchForm input[type="submit"]:hover {
+    background-color: #005fa3;
+}
